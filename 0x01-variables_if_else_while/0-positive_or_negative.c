@@ -4,10 +4,11 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - the main fuction
+ * main - main fuction
  *
- * Retuen: Always 
- */0 
+ * Retuen: always 0
+ */
+
 int main(void)
 {
 	int n;
@@ -16,10 +17,10 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if (n > 0)
-		printf("%d is positive", n);
-	if else (n == 0)
-		printf("%d is zero", n);
-	else (n < 0)
-		printf("%d is negative", n);
+		printf("%d is positive\n", n);
+	if (n == 0)
+		printf("%d is zero\n", n);
+	if (n < 0)
+		printf("%d is negative\n", n);
 	return (0);
 }
